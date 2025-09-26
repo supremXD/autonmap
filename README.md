@@ -1,4 +1,4 @@
-   # INSTALLATION (Kali Linux)
+   # INSTALLATION (Kali Linux or Parrot OS)
 
 ```bash
 sudo apt install wget nmap arp-scan -y"
