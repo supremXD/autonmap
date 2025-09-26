@@ -4,4 +4,5 @@
 sudo apt install wget nmap arp-scan -y"
 python3 autonmap.py
 ```
-This works 
+This was tested in kali linux and works in Parrot OS too.
+It might work in other OS.
