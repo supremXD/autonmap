@@ -68,8 +68,8 @@ def scan():
     print("              |                    1-->> Don't export output")
     print("              |                    2-->> Export in .txt")
     print("              |                    3-->> Export in .xml")
-    print("              |                    4-->> Export in script kiddie")
-    print("              |                    5-->> Export in grepable")
+    print("              |                    4-->> Export in grepable")
+    print("              |                    5-->> Export in all formats")
     print("              |                    6-->> Return")
     print("              |                    7-->> Exit")               
     x = input("              ↳ ")
@@ -82,9 +82,9 @@ def scan():
     if int(x) == 3:
         export_option = "-oX"
     if int(x) == 4:
-        export_option = "-oS"
-    if int(x) == 5:
         export_option = "-oG"
+    if int(x) == 5:
+        export_option = "-oA"
     if int(x) == 6:
         menu()
     if int(x) == 7:
